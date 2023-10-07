@@ -19,6 +19,9 @@ body {
     margin:0 auto;
 }
 
+#hero-img{
+    width: 100%;
+}
 
 header {
     background-color:rgba(97, 156, 223, 0.7);
@@ -102,7 +105,4 @@ footer p a:hover {
     text-decoration: underline;
 }   
 
-#hero-img{
-    width: 100%;
-}
 
