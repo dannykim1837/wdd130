@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&display=swap');
+
+
+:root{
+    --heading-font: "Oswald";
+    --paragraph-font: Oxygen, Helvetica, sans-serif;
+}
+body{
+    text-align: center;
+    background-color: pink;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.maincontent{
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+h1:hover{
+    color:black;
+}
+h1{
+    color:white;
+}
+h2:hover{
+    color:black;
+}
+h2{
+    color:white;
+    font-size: 15px;
+}
+h3:hover{
+    color:black;
+}
+h3{
+    color:white;
+    font-size: 50px;
+}
+h4:hover{
+    color:black;
+}
+h4{
+    color:black;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+ol {
+    text-align: left;
+  }
+
+  img {
+    margin: 0 auto;
+    max-width: 150px;
+  }
