@@ -22,7 +22,7 @@ body {
 
 header {
     background-color:rgba(97, 156, 223, 0.7);
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -81,7 +81,7 @@ nav a:hover {
 footer {
     font-size: 1.2em;
     background-color:rgba(97, 156, 223, 0.7);
-    text-align: left;
+    text-align: center;
     color: white;
 } 
 footer a{
@@ -102,4 +102,7 @@ footer p a:hover {
     text-decoration: underline;
 }   
 
+#hero-img{
+    width: 100%;
+}
 
