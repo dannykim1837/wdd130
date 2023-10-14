@@ -1,0 +1,29 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcfbfb; 
+}
+
+#hero img {
+    width: 100%;
+}
+
+.circlesbox{
+    height:250px;
+    background-color:rgba(106, 101, 101, 0.7);
+    padding:30px;
+}
+
+
+div .circle{
+    border-radius: 100%;
+    width: 200px;
+    border: 10px solid rgba(0, 0, 0, 1);
+    margin:1.5;
+}
+
+.middle {
+    margin: 0 150px;
+}
+

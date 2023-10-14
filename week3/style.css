@@ -15,15 +15,14 @@ body{
 
 .maincontent{
     width: 450px;
-    text-align: center;
     margin: 0 auto;
-
 }
 
 h1:hover{
     color:black;
 }
 h1{
+    text-align: center;
     color:white;
 }
 h2:hover{
@@ -50,10 +49,11 @@ h4{
 }
 
 ol {
+    margin: 0 0 0 5%;
     text-align: left;
-  }
+}
 
-  img {
+img {
     margin: 0 auto;
     max-width: 150px;
-  }
+}
