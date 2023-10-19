@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../week6/style.css">
+    <title>Cherries</title>
+    <style>
+       
+        .gridcontainer{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+       
+        .tart{
+            grid-column: 1/3;
+            grid-row: 1;
+            margin: 0;
+            font-size: 250px;
+        }
+        .cherry{
+            grid-column: 2/3;
+            background-color: #9f9c9c; 
+            color: red;
+            margin: 0;
+            grid-row: 2;
+            text-align: center;
+            font-size: 100px;
+        }
+        img{
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+        .background{
+            background-color: #9f9c9c; 
+            grid-column: 2/3;
+            grid-row: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <img src="../week6/w06_cherries.png" alt="cherry">
+        <div class="background"></div>
+        <h1 class="tart">Tart & Sweet</h1>
+        <h2 class="cherry">Cherries</h2>
+    </div>
+</body>
+</html>
